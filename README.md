@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+#TrialX
+
+This is a webapp built using the React framework using Codemirror v5.65.14 and this is important because v.6 of the same came out 7 days ago ( as i write this README ) and it surprisingly has a very different file structure as compared to the older versions. We also used react-codemirror in this project ( latest version works fine, it was updated 7 years ago ). 
+
+Points to note : 
+
+- This react application is not run on strict mode. This basically means that the strict tags are removed from index.js and hence if you want to contribute to this project and need to install a library on top of this, you need to use npm i package_name --force. ( --legacy-peer-deps wont work )
+
+- Usecase : This is a live code editor for HTML, CSS and Javascript for taking web development applications and tests during online interviews for RECursion. Each instance of code is locally saved as well.
+
+- Made by Ashesh 🐊
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
